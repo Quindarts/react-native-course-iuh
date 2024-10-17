@@ -12,19 +12,16 @@ import { View, Text, StyleSheet } from "react-native";
 
 export default function ExampleView() {
   return (
-    <View style={styles.container}>
+    <View style={{
+      flex: 1,
+      justifyContent: "center",
+      alignItems: "center",
+    }}>
       <Text>Hello World</Text>
     </View>
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: "center",
-    alignItems: "center",
-  },
-});
 ```
 
 ### Ví dụ sreen1 (bike):
